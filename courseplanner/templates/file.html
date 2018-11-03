@@ -1,0 +1,18 @@
+<html>
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+</head>
+<body>
+    <form action="someother.html" method="get">
+    <input id="my_text">
+    <input type="button" id="my_button" value="click me">
+    </form>
+        <div id="result">
+        </div>
+    <script>
+    $("#my_button").click(function(){
+         $("#result").load("");
+    })
+    </script>
+    </body>
+</html>

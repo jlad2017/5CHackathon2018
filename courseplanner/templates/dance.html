@@ -1,0 +1,75 @@
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+  <link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='styles/style.css')}}" >
+  <a href="http://www.hyperlinkcode.com/change-hyperlink-color.php" style="color: #000000"></a>
+
+<title> Official Sagehen Planner </title>
+<link href= "style.css" rel="stylesheet" type= "text/css">
+</head>
+
+<body>
+<header>
+&nbsp; <br>
+<hr>
+<h1 align='center'><font face ="Libre Baskerville", serif> The Official Sagehen Planner </font></h1>
+<hr>
+
+<br/>
+<div style="text-align:center;">
+
+    <!--<font face= "Libre Baskerville", serif> <i>Please select the courses that you've taken</i></font>-->
+
+</div>
+    <center>
+    <h1>What courses have you taken?</h1>
+    <form method="POST" action="/DANCEcourses">
+        <form action="" method="post">
+          <div>
+            <h1>Modern Dance Technique</h1><br>
+            <input type="checkbox" name="course1" value="DANC010" /> DANC010 PO<br>
+            <input type="checkbox" name="course2" value="DANC050" /> DANC050 PO<br>
+            <input type="checkbox" name="course3" value="DANC120" /> DANC120 PO<br>
+            <input type="checkbox" name="course4" value="DANC122" /> DANC122 PO<br>
+            <h1>Ballet Technique</h1><br>
+            <input type="checkbox" name="course5" value="DANC012" /> DANC012 PO<br>
+            <input type="checkbox" name="course6" value="DANC051" /> DANC051 PO<br>
+            <input type="checkbox" name="course7" value="DANC123" /> DANC123 PO<br>
+            <input type="checkbox" name="course8" value="DANC124" /> DANC124 PO<br>
+            <h1>Dance Theory</h1><br>
+            <input type="checkbox" name="course9" value="DANC135" /> DANC135 PO<br>
+            <input type="checkbox" name="course10" value="DANC130" /> DANC130 PO<br>
+            <input type="checkbox" name="course11" value="DANC14O" /> DANC140 PO<br>
+            <input type="checkbox" name="course12" value="DANC160" /> DANC160 PO<br>
+            <input type="checkbox" name="course13" value="DANC192" /> DANC192 PO<br>
+            <h1>Electives</h1><br>
+            <input type="checkbox" name="course14" value="DANC180" /> DANC180 PO<br>
+            <input type="checkbox" name="course15" value="DANC181" /> DANC181 PO<br>
+            <input type="checkbox" name="course16" value="THEA023" /> THEA023 PO<br>
+            <input type="checkbox" name="course17" value="THEA024" /> THEA024 PO<br>
+            <input type="checkbox" name="course18" value="THEA002" /> THEA002 PO<br>
+            <input type="checkbox" name="course19" value="MUS065" /> MUS065 PO<br>
+            <input type="checkbox" name="course20" value="DANC150" /> DANC150A PO or DANC150C PO <br>
+            <input type="checkbox" name="course21" value="DANC151" /> DANC151 PO<br>
+            <input type="checkbox" name="course22" value="DANC152" /> DANC152 PO<br>
+            <input type="checkbox" name="course23" value="THEA052" /> THEA052C PO OR THEA052H PO<br>
+            <input type="checkbox" name="course24" value="DANC166" /> DANC166 PO <br>
+            <input type="checkbox" name="course25" value="DANC170" /> DANC170 PO<br>
+            <input type="checkbox" name="course26" value="DANC175" /> DANC175 PO<br>
+            <input type="submit" name="">
+          </div>
+        <center>
+        </form>
+    </form>
+  <div>
+
+      <div style="bottom: 10px">
+        <i><font size = "4"><marquee behavior="scroll" direction="right">
+          Please select the courses that you've taken!
+        </i></font><br /></marquee>
+
+      </div>
+  </div>
+</header>
+</body>
+</html>
